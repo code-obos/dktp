@@ -10,6 +10,7 @@ env:
 
 permissions:
   contents: write
+  packages: write
 
 jobs:
   test-build-publish:
@@ -33,4 +34,4 @@ jobs:
         run: bunx semantic-release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}

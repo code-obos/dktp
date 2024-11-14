@@ -1,5 +1,5 @@
 {
-  "name": "@nutgaard/dktp",
+  "name": "@code-obos/dktp",
   "version": "0.0.0-development",
   "description": "A simple cli to interact with Azure ContainerApps with arm/yaml templates",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nutgaard/dktp"
+    "url": "https://github.com/code-obos/dktp"
   },
   "main": "./lib/index.js",
   "bin": {
@@ -20,7 +20,7 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "Nicklas Utgaard",
   "license": "MIT",
